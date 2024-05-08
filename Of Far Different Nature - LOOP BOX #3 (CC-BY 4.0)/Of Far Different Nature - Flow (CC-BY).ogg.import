@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Of Far Different Nature - Flow (CC-BY).ogg-ebf802f1d35b46bcb638ba191898fbc8.oggstr"
+
+[deps]
+
+source_file="res://Of Far Different Nature - LOOP BOX #3 (CC-BY 4.0)/Of Far Different Nature - Flow (CC-BY).ogg"
+dest_files=[ "res://.import/Of Far Different Nature - Flow (CC-BY).ogg-ebf802f1d35b46bcb638ba191898fbc8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

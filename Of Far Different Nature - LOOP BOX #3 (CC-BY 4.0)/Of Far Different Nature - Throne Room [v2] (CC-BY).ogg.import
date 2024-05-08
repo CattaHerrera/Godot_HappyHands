@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Of Far Different Nature - Throne Room [v2] (CC-BY).ogg-8428f4411c122ae3e8b94c4b4eca5dc3.oggstr"
+
+[deps]
+
+source_file="res://Of Far Different Nature - LOOP BOX #3 (CC-BY 4.0)/Of Far Different Nature - Throne Room [v2] (CC-BY).ogg"
+dest_files=[ "res://.import/Of Far Different Nature - Throne Room [v2] (CC-BY).ogg-8428f4411c122ae3e8b94c4b4eca5dc3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

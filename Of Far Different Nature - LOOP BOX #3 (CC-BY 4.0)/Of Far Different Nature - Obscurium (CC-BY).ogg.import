@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Of Far Different Nature - Obscurium (CC-BY).ogg-96e047316fee3e7125b67ebe72a1534a.oggstr"
+
+[deps]
+
+source_file="res://Of Far Different Nature - LOOP BOX #3 (CC-BY 4.0)/Of Far Different Nature - Obscurium (CC-BY).ogg"
+dest_files=[ "res://.import/Of Far Different Nature - Obscurium (CC-BY).ogg-96e047316fee3e7125b67ebe72a1534a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

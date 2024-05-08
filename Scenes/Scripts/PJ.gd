@@ -1,0 +1,53 @@
+extends KinematicBody2D
+
+const moveSpeed = 40
+const maxSpeed = 80
+
+const jumpHeigh = -250
+const up = Vector2(0,-1)
+const gravity = 15
+
+onready var sprite = $Sprite
+onready var animationPlayer = $AnimationPlayer
+
+var motion = Vector2()
+var checkpoint_position = Vector2()  # Variable para almacenar el punto de control
+
+func _physics_process(delta):
+	motion.y += gravity
+	var friction = false
+	
+	if Input.is_action_pressed("ui_right"):
+		sprite.flip_h = false
+		animationPlayer.play("Walk")
+		motion.x = min(motion.x + moveSpeed,maxSpeed)
+		
+	elif Input.is_action_pressed("ui_left"):
+		sprite.flip_h = true
+		animationPlayer.play("Walk")
+		motion.x = max(motion.x - moveSpeed,-maxSpeed)
+	else: 
+		animationPlayer.play("Idle")
+		friction = true
+		
+	if is_on_floor():
+		if Input.is_action_pressed("ui_jump"):
+			motion.y = jumpHeigh
+		if friction == true:
+			motion.x = lerp(motion.x,0,0.5)
+	else:
+		if friction == true:
+			motion.x = lerp(motion.x,0,0.01)
+	motion = move_and_slide(motion,up)
+	
+func add_Coin():
+	var canvasLayer = get_tree().get_root().find_node("CanvasLayer",true,false)
+	canvasLayer.handleCoinCollected()	
+	
+# Método para establecer el punto de control
+func set_checkpoint(position : Vector2):
+	checkpoint_position = position
+
+# Método para volver al punto de control
+func return_to_checkpoint():
+	global_position = checkpoint_position

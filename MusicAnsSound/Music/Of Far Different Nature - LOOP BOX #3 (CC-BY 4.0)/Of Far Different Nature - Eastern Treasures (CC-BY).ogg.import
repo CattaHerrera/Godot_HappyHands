@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Of Far Different Nature - Eastern Treasures (CC-BY).ogg-6c89e9badfe25e93d245abdc5d930a4f.oggstr"
+
+[deps]
+
+source_file="res://MusicAnsSound/Music/Of Far Different Nature - LOOP BOX #3 (CC-BY 4.0)/Of Far Different Nature - Eastern Treasures (CC-BY).ogg"
+dest_files=[ "res://.import/Of Far Different Nature - Eastern Treasures (CC-BY).ogg-6c89e9badfe25e93d245abdc5d930a4f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Of Far Different Nature - Epic Departure [v2] (CC-BY).ogg-4a064d33e71c3642b6b252c47c80e4b7.oggstr"
+
+[deps]
+
+source_file="res://Of Far Different Nature - LOOP BOX #3 (CC-BY 4.0)/Of Far Different Nature - Epic Departure [v2] (CC-BY).ogg"
+dest_files=[ "res://.import/Of Far Different Nature - Epic Departure [v2] (CC-BY).ogg-4a064d33e71c3642b6b252c47c80e4b7.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

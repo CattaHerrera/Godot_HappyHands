@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Of Far Different Nature - Adventure Begins (CC-BY).ogg-bd9e6d1952449375ef621708c97df65e.oggstr"
+
+[deps]
+
+source_file="res://Of Far Different Nature - LOOP BOX #3 (CC-BY 4.0)/Of Far Different Nature - Adventure Begins (CC-BY).ogg"
+dest_files=[ "res://.import/Of Far Different Nature - Adventure Begins (CC-BY).ogg-bd9e6d1952449375ef621708c97df65e.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

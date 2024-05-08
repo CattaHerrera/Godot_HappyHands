@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Of Far Different Nature - Horny [v2] (CC-BY).ogg-6dd7b612991edc219153592ff7a33dcf.oggstr"
+
+[deps]
+
+source_file="res://MusicAnsSound/Music/Of Far Different Nature - LOOP BOX #3 (CC-BY 4.0)/Of Far Different Nature - Horny [v2] (CC-BY).ogg"
+dest_files=[ "res://.import/Of Far Different Nature - Horny [v2] (CC-BY).ogg-6dd7b612991edc219153592ff7a33dcf.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

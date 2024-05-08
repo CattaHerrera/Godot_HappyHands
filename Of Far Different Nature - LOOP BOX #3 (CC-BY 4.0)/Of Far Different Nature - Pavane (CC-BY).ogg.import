@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Of Far Different Nature - Pavane (CC-BY).ogg-6f863c9e788b9e71ea1e1516f4d181a4.oggstr"
+
+[deps]
+
+source_file="res://Of Far Different Nature - LOOP BOX #3 (CC-BY 4.0)/Of Far Different Nature - Pavane (CC-BY).ogg"
+dest_files=[ "res://.import/Of Far Different Nature - Pavane (CC-BY).ogg-6f863c9e788b9e71ea1e1516f4d181a4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

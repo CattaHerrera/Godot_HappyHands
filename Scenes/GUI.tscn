@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://kenney_cursor-pack/PNG/Basic/Default/arrow_w.png" type="Texture" id=1]
+[ext_resource path="res://kenney_cursor-pack/PNG/Basic/Default/arrow_e.png" type="Texture" id=2]
+[ext_resource path="res://kenney_cursor-pack/PNG/Basic/Default/arrow_n.png" type="Texture" id=3]
+
+[node name="GUI" type="CanvasLayer"]
+
+[node name="Izquierda" type="TouchScreenButton" parent="."]
+position = Vector2( 92, 729 )
+scale = Vector2( 8, 8 )
+normal = ExtResource( 1 )
+passby_press = true
+action = "ui_left"
+
+[node name="Derecha" type="TouchScreenButton" parent="."]
+position = Vector2( 382, 733 )
+scale = Vector2( 8, 8 )
+normal = ExtResource( 2 )
+passby_press = true
+action = "ui_right"
+
+[node name="Saltar" type="TouchScreenButton" parent="."]
+position = Vector2( 2026, 704 )
+scale = Vector2( 8, 8 )
+normal = ExtResource( 3 )
+passby_press = true
+action = "ui_jump"
